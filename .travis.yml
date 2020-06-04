@@ -9,6 +9,13 @@ git:
   depth: 3
 script:
   - yarn build
+notifications:
+    email:
+        recipients:
+            - leomed2005@gmail.com
+            - leomed2002@hotmail.com
+          on_success: allways
+          on_failure: allways
 deploy:
   provider: pages
   skip-cleanup: true
@@ -19,3 +26,4 @@ deploy:
   commit_message: "Deploy del proyecto"
   on:
     branch: master
+  
