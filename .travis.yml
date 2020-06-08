@@ -10,6 +10,8 @@ git:
 script:
   - yarn build
 notifications:
+    slack: leomedtewt:jaPkczHSJIn4PwGR1pfZh3uO
+
     email:
         recipients:
             - leomed2005@gmail.com
